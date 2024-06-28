@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
   #grid{
       display: grid;
-      grid-template-columns: repeat(4,242.5px);
+      grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
       grid-template-rows: 124px 124px 124px 124px 124px;
       width: 50%;
       grid-column-gap: 5px;
@@ -24,10 +24,10 @@
       grid-column: 2/span 2;
     }
     .item-4{
-      grid-column: 4/span 4;
+      grid-column: span 2/auto;
     }
     .item-5{
-      grid-column: 2/span 2;
+      grid-column: span 2/auto;
     }
     .item-6{
       grid-column: 4/span 4;
@@ -36,5 +36,5 @@
       grid-column: 4/span 4;
     }
     .item-10{
-      grid-column: 2/span 4;
+      grid-column:span 3/auto;
     }
