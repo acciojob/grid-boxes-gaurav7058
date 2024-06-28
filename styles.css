@@ -14,20 +14,20 @@
       border: 1px solid black;
     }
     .item-1{
-      grid-column: span 4/auto;
+      grid-column: 1/span 5;
       
     }
     .item-2{
-      grid-row: spam 4/auto;
+      grid-row: 2/span 4;
     }
     .item-3{
       grid-column: 2/span 2;
     }
     .item-4{
-      grid-column: span 2/auto;
+      grid-column: 4/span 4;
     }
     .item-5{
-      grid-column: span 2/auto;
+      grid-column: 2/span 2;
     }
     .item-6{
       grid-column: 4/span 4;
@@ -36,5 +36,5 @@
       grid-column: 4/span 4;
     }
     .item-10{
-      grid-column:span 3/auto;
+      grid-column: 2/span 4;
     }
