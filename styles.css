@@ -2,7 +2,7 @@
   #grid{
       display: grid;
       grid-template-columns: repeat(4,242.5px);
-      grid-template-rows: repeat(5,124px);
+      grid-template-rows: 124px 124px 124px 124px 124px;
       width: 50%;
       grid-column-gap: 5px;
       grid-row-gap: 5px;
@@ -18,7 +18,7 @@
       
     }
     .item-2{
-      grid-row: spam 4/2;
+      grid-row: spam 4/auto;
     }
     .item-3{
       grid-column: 2/span 2;
