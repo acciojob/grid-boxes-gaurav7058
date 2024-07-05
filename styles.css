@@ -13,8 +13,8 @@
       background-color: green;
       border: 1px solid black;
     }
-    .item-1{
-      grid-column: 1/span 5;
+   .item-1{
+      grid-column: span 4/auto;
       
     }
     .item-2{
